@@ -26,7 +26,7 @@
 </head>
 <body style="display: flex; justify-content: center;">
     <div class="form-box-cadastro">
-        <form method="post">
+        <form class="form-cadastro"  method="post">
             <img src="images/logo.jpg" alt="Logo do Sistema" class="logo">
             <h2>Cadastro</h2>
             <input type="text" name="Nome" placeholder="Nome Completo" required>

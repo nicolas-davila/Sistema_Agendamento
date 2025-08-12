@@ -46,6 +46,11 @@ body {
     margin: auto;
 }
 
+.form-cadastro {
+    padding-top: 22%;
+    padding-right: 5%;
+}
+
 .logo {
     width: 100px;
     height: 100px;
