@@ -3,7 +3,7 @@
     $host = "localhost";
     $user = "root";
     $pass = "012220";
-    $db = "sistema_agendamento";
+    $db = "sistema_agendamento_teste";
 
     $conn = mysqli_connect($host, $user, $pass, $db);
 
