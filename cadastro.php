@@ -1,6 +1,6 @@
 <?php 
 
-    include ("../banco_dados/db.php");
+    include ("./banco_dados/db.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nome = $_POST['Nome'];
@@ -32,7 +32,7 @@
             <input type="email" name="email" placeholder="exemplo@exemplo.com" required>
             <input type="password" name="senha" placeholder="Criar senha" required>
             <input type="submit" value="Cadastrar">
-            <p>Já possui uma conta? <a href="/tela_inicial/index.html">Faça login</a></p>
+            <p>Já possui uma conta? <a href="index.html">Faça login</a></p>
         </form>
 
     </div>
