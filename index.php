@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    $erro = $_SESSION['erro'] ?? '';
+    unset($_SESSION['erro']); // Limpa o erro após mostrar
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -7,6 +13,12 @@
     <link rel="stylesheet"  href="style.css">
 </head>
 <body>
+
+    <?php if ($erro): ?>
+        <script>
+            alert("<?= addslashes($erro) ?>");
+        </script>
+    <?php endif; ?>
     <div class="container">
         <!-- Parte esquerda (desktop) -->
          <div class="left">
