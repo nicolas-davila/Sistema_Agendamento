@@ -37,7 +37,7 @@
                         <input type="password" name="senha" placeholder="Senha" required>
                         <input type="submit" value="Entrar" class="botao">
                     </form>
-                    <p>Não possui uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+                    <p>Não possui uma conta? <a href="cadastro.php">Cadastre-se</a></p>
                 </div>
          </div>
     </div>

@@ -16,7 +16,10 @@
     $stmt->bind_param("sss", $nome, $email, $senhaHash);
 
     if ($stmt->execute()) {
-        echo "Cadastro realizado com sucesso!";
+        function mostraMensagem(){
+            echo "<script>
+                alert('Cadastro realizado com sucesso! Faça login para continuar.')";
+        }
         header("Location: index.php");
         exit;
     } else {
